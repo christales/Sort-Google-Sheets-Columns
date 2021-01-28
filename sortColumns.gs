@@ -17,7 +17,6 @@ function sortSheet(sheetName, startingColumn) {
   initialHeaders.sort(); //sorting the headers alphabetically
   
   const uniqueHeaders = [...new Set(initialHeaders)]
-  uniqueHeaders.pop(); //removing the last item, since all the previous ones will be moved before it anyway
   if (!uniqueHeaders[0]) {uniqueHeaders.shift()}
 
   const headersArray = [];
