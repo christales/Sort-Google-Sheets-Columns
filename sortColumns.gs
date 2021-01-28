@@ -46,7 +46,7 @@ function sortSheet(sheetName, startingColumn) {
       }
       inspectedColumnArrIndex++; //moving to the next inspected column
     }
-    inspectedColumnArrIndex = 1 + headersArray[j][1]; //resetting the columnArrayIndex to start after the already sorted columns
+    inspectedColumnArrIndex = headersArray[j][1]; //resetting the columnArrayIndex to start after the already sorted columns
   }
 }
 
